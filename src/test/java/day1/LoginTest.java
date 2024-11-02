@@ -13,9 +13,9 @@ public class LoginTest {
 		
 		driver.manage().window().maximize();
 		
-		driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys("visual_user");
+		driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys("");
 		
-		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("first_sauce");
+		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("");
 		
 		driver.findElement(By.xpath("//input[@id='login-button']")).click();
 		
