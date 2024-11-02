@@ -13,7 +13,7 @@ public class LoginTest {
 		
 		driver.manage().window().maximize();
 		
-		driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys("visual_user");
+		driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys("first_user");
 		
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("secret_sauce");
 		
